@@ -119,3 +119,29 @@ body:hover {
     margin-top: 80px;
     text-align: center;
 }
+
+.container:hover .word-meaning  {
+    color: #d1d4f7;
+}
+
+.container:hover .result h3 {
+    color: #d1d4f7;
+    font-size: 30px;
+    
+}
+
+.container:hover .word-example {
+    color: #ced1f5;
+    font-style: italic;
+    border-left: 5px solid #ae9cff;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+.container:hover .result .details {
+    display: flex;
+    gap: 10px;
+    color: #100852;
+    margin: 5px 0 20px 0;
+    font-size: 14px;
+}
