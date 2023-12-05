@@ -1,3 +1,7 @@
+document.getElementById("toggle").addEventListener("click", function(){
+    document.getElementsByTagName('body')[0].classList.toggle("dark-theme");
+});
+
 const url = "https://api.dictionaryapi.dev/api/v2/entries/en/";
 const result = document.getElementById("result");
 const sound = document.getElementById("sound");
